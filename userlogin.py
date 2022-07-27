@@ -7,8 +7,9 @@ data2 = open("code", "r")
 usrdata = data1.read()
 passdata = data2.read()
 print("Username: "+passdata)
-while ok==1:
+ok = 0
+while True:
   password = input("Password: ")
   if password==passdata:
-    ok = 1
-os.system("bash ./WORLDOS/os")
+    os.system("bash ./WORLDOS/os")
+
