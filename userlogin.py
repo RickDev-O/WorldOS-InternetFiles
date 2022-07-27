@@ -8,8 +8,10 @@ usrdata = data2.read()
 passdata = data1.read()
 print("Username: "+passdata)
 ok = 0
-while True:
-  password = input("Password: ")
-  if password==passdata:
-    os.system("bash ./WORLDOS/os")
+password = input("Password: ")
+if password==passdata:
+  os.system("bash ./WORLDOS/os")
+ else:
+  exit("Incorrect password!")
+
 
