@@ -10,8 +10,8 @@ print("Username: "+passdata)
 ok = 0
 password = input("Password: ")
 if password==passdata:
-  os.system("bash ./WORLDOS/os")
- else:
-  exit("Incorrect password!")
+ os.system("bash ./WORLDOS/os")
+else:
+ exit("Incorrect password!")
 
 
